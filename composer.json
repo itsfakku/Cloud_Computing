@@ -4,7 +4,7 @@
 
 "post-install-cmd": [
      "php artisan clear-compiled",
-     "chmod -R 755 ./*"
+     "chmod -R 644 index.php"
  ]
 
 
